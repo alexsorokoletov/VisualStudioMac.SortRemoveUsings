@@ -1,4 +1,4 @@
-<AddinProject appVersion="6.0">
+<AddinProject appVersion="7.0">
 	<Project platforms="Linux Mac Win32">
 		<AddinFile>SortAndRemoveOnSave/bin/Release/SortAndRemoveOnSave.dll</AddinFile>
 		<BuildFile>SortAndRemoveOnSave.sln</BuildFile>
