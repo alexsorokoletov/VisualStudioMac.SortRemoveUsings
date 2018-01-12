@@ -5,7 +5,7 @@ using Mono.Addins.Description;
 [assembly: Addin(
     "SortAndRemoveOnSave",
     Namespace = "SortAndRemoveOnSave",
-    Version = "1.1"
+    Version = "1.2"
 )]
 
 [assembly: AddinName("SortAndRemoveOnSave")]
