@@ -4,7 +4,7 @@ Visual Studio for Mac Add-in: Sort and Remove unused using directives on file sa
 Helps any C# developer to achieve better performance by focusing on business logic rather than on usings :)
 
 ## Download
-Download .mpack file from [Releases](https://github.com/alexsorokoletov/XamarinStudio.SortRemoveUsings/releases/tag/1.1)
+Download .mpack file from [Releases](https://github.com/alexsorokoletov/XamarinStudio.SortRemoveUsings/releases/)
 Then install it in Visual Studio for Mac -> Extensions.. -> Install from file
 
 ## Demo
