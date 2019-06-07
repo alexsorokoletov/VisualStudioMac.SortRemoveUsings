@@ -10,4 +10,4 @@ using Mono.Addins.Description;
 [assembly: AddinName("SortAndRemoveOnSave")]
 [assembly: AddinCategory("IDE extensions")]
 [assembly: AddinDescription("Visual Studio for Mac Add-in to sort and remove usings when saving C# file")]
-[assembly: AddinAuthor("Alex Sorokoletov, Christian Groothoff(Fixes for VS 2019)")]
+[assembly: AddinAuthor("Alex Sorokoletov, Christian Groothoff")]

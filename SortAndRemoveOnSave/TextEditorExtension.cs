@@ -8,10 +8,10 @@ namespace SortAndRemoveOnSave
 {
 	//TODO: Replace obsolete functions with new functions.
 	class SortOnSaveTextEditorExtension : TextEditorExtension, IDisposable
-	{
+	{		
+		//TODO: Add filter by 'IdeApp.Version'.
 		//private const string RemoveAndSortCommandId = "MonoDevelop.CSharp.Refactoring.SortAndRemoveImportsCommand";
 		private const string RemoveAndSortCommandId = "MonoDevelop.CSharp.Refactoring.Commands.SortAndRemoveImports";
-
 
 		public override void Dispose()
 		{
@@ -25,21 +25,8 @@ namespace SortAndRemoveOnSave
 			DocumentContext.Saved += Document_Saved;
 		}
 
-
-
-
 		private void Document_Saved(object sender, EventArgs e)
 		{
-			var x = IdeApp.CommandService.GetCommands().ToList();
-
-			var list = "";
-			foreach (var command in x)
-			{
-				list += command.Id + "/n";
-			}
-
-			//IdeApp.Workbench.ActiveDocument.TextBuffer.GetTextEditor().InsertText(0, list);
-
 			if (_skipEvent)
 			{
 				_skipEvent = false;
@@ -53,7 +40,6 @@ namespace SortAndRemoveOnSave
 			var success = IdeApp.CommandService.DispatchCommand(RemoveAndSortCommandId, MonoDevelop.Components.Commands.CommandSource.Keybinding);
 			if (!success)
 			{
-
 				Console.WriteLine("SortAndRemoveOnSave: Cannot find or dispatch command {0}", RemoveAndSortCommandId);
 			}
 			else
