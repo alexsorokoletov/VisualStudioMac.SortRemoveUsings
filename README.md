@@ -10,6 +10,7 @@ Helps any C# developer to achieve better performance by focusing on business log
 
 ## Download
 Use Version >= 1.3 for Visual Studio 2019.
+Don't use Version 1.3 for older Visual Studio Versions.
 
 Download .mpack file from [Releases](https://github.com/Ruffo324/VisualStudioMac.SortRemoveUsings/releases)
 Then install it in Visual Studio for Mac -> Extensions.. -> Install from file
