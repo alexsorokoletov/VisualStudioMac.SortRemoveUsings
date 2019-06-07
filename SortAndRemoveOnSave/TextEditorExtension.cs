@@ -6,6 +6,7 @@ using Microsoft.VisualStudio.Platform;
 
 namespace SortAndRemoveOnSave
 {
+	//TODO: Replace obsolete functions with new functions.
 	class SortOnSaveTextEditorExtension : TextEditorExtension, IDisposable
 	{
 		//private const string RemoveAndSortCommandId = "MonoDevelop.CSharp.Refactoring.SortAndRemoveImportsCommand";
