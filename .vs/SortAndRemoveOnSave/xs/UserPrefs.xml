@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{896915E2-A5FE-4593-BA58-97FD2CD94394}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SortAndRemoveOnSave/TextEditorExtension.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SortAndRemoveOnSave/Properties/Manifest.addin.xml">
     <Files>
-      <File FileName="SortAndRemoveOnSave/TextEditorExtension.cs" Line="9" Column="1" />
       <File FileName="SortAndRemoveOnSave/Properties/Manifest.addin.xml" Line="8" Column="18" />
-      <File FileName="SortAndRemoveOnSave/Properties/AddinInfo.cs" Line="7" Column="16" />
+      <File FileName="SortAndRemoveOnSave/Properties/AddinInfo.cs" Line="9" Column="1" />
       <File FileName="SortAndRemoveOnSave/Properties/AssemblyInfo.cs" Line="26" Column="1" />
       <File FileName="SortAndRemoveOnSave/packages.config" Line="1" Column="1" />
     </Files>
@@ -12,10 +11,9 @@
         <State name="__root__">
           <Node name="SortAndRemoveOnSave" expanded="True">
             <Node name="SortAndRemoveOnSave" expanded="True">
-              <Node name="Packages" expanded="True" />
-              <Node name="AddinReferenceFolder" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="TextEditorExtension.cs" selected="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="Manifest.addin.xml" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
