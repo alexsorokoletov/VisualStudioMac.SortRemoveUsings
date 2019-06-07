@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{896915E2-A5FE-4593-BA58-97FD2CD94394}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SortAndRemoveOnSave/TextEditorExtension.cs">
+    <Files>
+      <File FileName="SortAndRemoveOnSave/TextEditorExtension.cs" Line="9" Column="1" />
+      <File FileName="SortAndRemoveOnSave/Properties/Manifest.addin.xml" Line="8" Column="18" />
+      <File FileName="SortAndRemoveOnSave/Properties/AddinInfo.cs" Line="7" Column="16" />
+      <File FileName="SortAndRemoveOnSave/Properties/AssemblyInfo.cs" Line="26" Column="1" />
+      <File FileName="SortAndRemoveOnSave/packages.config" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SortAndRemoveOnSave" expanded="True">
+            <Node name="SortAndRemoveOnSave" expanded="True">
+              <Node name="Packages" expanded="True" />
+              <Node name="AddinReferenceFolder" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="TextEditorExtension.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>success</Value>
+          <Value>x</Value>
+          <Value>IdeApp.CommandService.GetCommands()</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SortAndRemoveOnSave PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
