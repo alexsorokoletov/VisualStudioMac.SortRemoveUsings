@@ -10,19 +10,10 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SortAndRemoveOnSave" expanded="True">
-            <Node name="SortAndRemoveOnSave" expanded="True">
-              <Node name="Properties" expanded="True">
-                <Node name="Manifest.addin.xml" selected="True" />
-              </Node>
+            <Node name="SortAndRemoveOnSave" expanded="True" selected="True">
+              <Node name="Properties" expanded="True" />
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>success</Value>
-          <Value>x</Value>
-          <Value>IdeApp.CommandService.GetCommands()</Value>
         </State>
       </Pad>
     </Pads>
